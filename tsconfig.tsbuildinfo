@@ -1791,14 +1791,9 @@
         "signature": "7e2aea0328fc1b0fdb4be9934144c71b478a732ef9694de2bb90a34e3c81c69c",
         "affectsGlobalScope": false
       },
-      "./src/models/book.model.ts": {
-        "version": "0a3327558fe1a2e79a6338bf0ad23352d0b8bd5463f280342b0ebcb0e7f43217",
-        "signature": "9e7575b4d8b67c1ecedad2519cea968eea2ce8a7c2fa0d6e624929f1f5a06d67",
-        "affectsGlobalScope": false
-      },
       "./src/models/index.ts": {
-        "version": "4197356d9fbbf28a8862c0dfb7c57e764e13340b3b57e531d966d124b4818f3e",
-        "signature": "ebe506fac42616c2adf9b87dc1ead254a1c047ea5d77819715e519cbd4c272cf",
+        "version": "44b63aba38fb52e76f7d4c6ca09506a9c622bc02035751739f293d14725d0f50",
+        "signature": "69f6ec1f61a93df4b8b5d4b7c33321017287ee1292dd3a5fcda488891d799a6d",
         "affectsGlobalScope": false
       },
       "./src/datasources/mongods.datasource.ts": {
@@ -1891,14 +1886,9 @@
         "signature": "8cbd34ab9619947ed459732ac7e9dd3fa1de8a80c48d7b2f633a65fb560bd2d7",
         "affectsGlobalScope": false
       },
-      "./src/repositories/book.repository.ts": {
-        "version": "24cebd0ae51bcf17d2c9b4fb257850310fe79abc0f23567d5ddb4a8e8cdea9e4",
-        "signature": "d7fc26314546eb4833e17fa82d0e9d1c8416cbf08d1605ec7c41646257aba547",
-        "affectsGlobalScope": false
-      },
       "./src/repositories/index.ts": {
-        "version": "c113856fc8471c206b4dc8e94fa803de6e844c0278b3d674b4a9fc8b5ff3179f",
-        "signature": "35d8f42c99d0db771baaeadafb560e3e60995839a4c9406f4167ef03d2d9c4d5",
+        "version": "e7c91b09cd9e064ceb84ed1e48f0e28afb3ceed4d01a901e0f7b011603b2be6b",
+        "signature": "7cd398c9cb3b367b9f13ae4678bb6a31e4504fb70ae2d4e175713a282cb82744",
         "affectsGlobalScope": false
       },
       "./src/services/jwt.service.ts": {
@@ -2051,11 +2041,6 @@
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
-      "./src/controllers/book.controller.ts": {
-        "version": "10eb25b0a6fd90ef24daab9825d762e57ea47a163a2e307e99b790afb8a0d3f6",
-        "signature": "f207ead3ec41bede8ef47698b3d4fa2f440b88e60240bdfeff5ad2bef280dd0e",
-        "affectsGlobalScope": false
-      },
       "./src/controllers/ping.controller.ts": {
         "version": "b225f53bcbed62b8c64fdaed320ffaa1252ad6fe28735258eb794a0707fb0da8",
         "signature": "298dcf42626620a1d183c7a1d1f08ad2311840ec09f9512d57335dd1c7d9fc72",
@@ -2147,8 +2132,8 @@
         "affectsGlobalScope": false
       },
       "./src/controllers/index.ts": {
-        "version": "2cea13711fa6f8bdb957f07a17abbca95338cce8b2d1527f4306f8eb3922b787",
-        "signature": "82e245c2a4ce08a9055a32d0091217d98d2e90c478f79f0bd5407f8297aef725",
+        "version": "bbb78b9aada9c10c306dc7a643bbe01dcdea38297a445ba3937457b9e1395beb",
+        "signature": "5ec36ce9ea78c447c316057d144730918accf07d6b18bb72390e1cf97da3fea6",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/color-name/index.d.ts": {
@@ -5131,18 +5116,9 @@
         "./src/services/jwt.service.ts",
         "./src/services/user.services.ts"
       ],
-      "./src/controllers/book.controller.ts": [
-        "./node_modules/@loopback/repository/dist/index.d.ts",
-        "./node_modules/@loopback/rest/dist/index.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./src/models/index.ts",
-        "./src/repositories/index.ts"
-      ],
       "./src/controllers/index.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./src/controllers/book.controller.ts",
         "./src/controllers/ping.controller.ts",
         "./src/controllers/user.controller.ts"
       ],
@@ -5203,15 +5179,9 @@
         "./node_modules/@types/node/util.d.ts",
         "./src/application.ts"
       ],
-      "./src/models/book.model.ts": [
-        "./node_modules/@loopback/repository/dist/index.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
-      ],
       "./src/models/index.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./src/models/book.model.ts",
         "./src/models/user.model.ts"
       ],
       "./src/models/user.model.ts": [
@@ -5225,18 +5195,9 @@
         "./node_modules/@types/node/util.d.ts",
         "./src/application.ts"
       ],
-      "./src/repositories/book.repository.ts": [
-        "./node_modules/@loopback/core/dist/index.d.ts",
-        "./node_modules/@loopback/repository/dist/index.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./src/datasources/index.ts",
-        "./src/models/index.ts"
-      ],
       "./src/repositories/index.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./src/repositories/book.repository.ts",
         "./src/repositories/user.repository.ts"
       ],
       "./src/repositories/user.repository.ts": [
@@ -8187,13 +8148,7 @@
         "./node_modules/@loopback/rest/dist/index.d.ts",
         "./node_modules/loopback-datasource-juggler/index.d.ts"
       ],
-      "./src/controllers/book.controller.ts": [
-        "./node_modules/@loopback/repository/dist/index.d.ts",
-        "./src/models/index.ts",
-        "./src/repositories/index.ts"
-      ],
       "./src/controllers/index.ts": [
-        "./src/controllers/book.controller.ts",
         "./src/controllers/ping.controller.ts",
         "./src/controllers/user.controller.ts"
       ],
@@ -8224,23 +8179,13 @@
         "./src/services/jwt.service.ts",
         "./src/services/user.services.ts"
       ],
-      "./src/models/book.model.ts": [
-        "./node_modules/@loopback/repository/dist/index.d.ts"
-      ],
       "./src/models/index.ts": [
-        "./src/models/book.model.ts",
         "./src/models/user.model.ts"
       ],
       "./src/models/user.model.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts"
       ],
-      "./src/repositories/book.repository.ts": [
-        "./node_modules/@loopback/repository/dist/index.d.ts",
-        "./src/datasources/index.ts",
-        "./src/models/index.ts"
-      ],
       "./src/repositories/index.ts": [
-        "./src/repositories/book.repository.ts",
         "./src/repositories/user.repository.ts"
       ],
       "./src/repositories/user.repository.ts": [
@@ -8684,7 +8629,6 @@
       "./src/__tests__/acceptance/ping.controller.acceptance.ts",
       "./src/__tests__/acceptance/test-helper.ts",
       "./src/application.ts",
-      "./src/controllers/book.controller.ts",
       "./src/controllers/index.ts",
       "./src/controllers/ping.controller.ts",
       "./src/controllers/specs/user.controller.spec.ts",
@@ -8694,11 +8638,9 @@
       "./src/index.ts",
       "./src/key.ts",
       "./src/migrate.ts",
-      "./src/models/book.model.ts",
       "./src/models/index.ts",
       "./src/models/user.model.ts",
       "./src/openapi-spec.ts",
-      "./src/repositories/book.repository.ts",
       "./src/repositories/index.ts",
       "./src/repositories/user.repository.ts",
       "./src/sequence.ts",
